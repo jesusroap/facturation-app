@@ -1,0 +1,72 @@
+<h2 class="content-block">Sales</h2>
+<dx-data-grid class="dx-card wide-card"
+  [dataSource]="ds"
+  [showBorders]="false"
+  [focusedRowEnabled]="true"
+  [focusedRowIndex]="0"
+  [columnAutoWidth]="true"
+  [columnHidingEnabled]="true">
+
+  <dxo-paging [pageSize]="10"></dxo-paging>
+  <dxo-pager [showPageSizeSelector]="true" [showInfo]="true"></dxo-pager>
+  <dxo-filter-row [visible]="true"></dxo-filter-row>
+
+  <dxi-column
+    dataField="invoiceId"
+    [width]="90"
+    caption="Id"
+    [hidingPriority]="2">
+  </dxi-column>
+  <dxi-column
+    dataField="product.productName"
+    caption="Product"
+    [hidingPriority]="8">
+  </dxi-column>
+  <dxi-column
+    dataField="invoice.customer.name"
+    caption="Customer Name"
+    [hidingPriority]="8">
+  </dxi-column>
+  <dxi-column
+    dataField="invoice.customer.lastName"
+    caption="Customer Lastname"
+    [hidingPriority]="8">
+  </dxi-column>
+  <dxi-column
+    dataField="invoice.date"
+    caption="Date"
+    [hidingPriority]="8">
+  </dxi-column>
+  <dxi-column
+    dataField="invoice.customer.phone"
+    caption="Phone"
+    [hidingPriority]="8">
+  </dxi-column>
+  <dxi-column
+    caption="Price"
+    dataField="product.price"
+    [width]="90"
+    [hidingPriority]="6">
+  </dxi-column>
+  <dxi-column
+    dataField="amount"
+    caption="Amount"
+    [width]="90"
+    [hidingPriority]="6">
+  </dxi-column>
+  <!-- <dxo-editing
+    mode="row"
+    [allowUpdating]="true"
+    [allowDeleting]="true"
+    [useIcons]="true"
+  ></dxo-editing> -->
+  <!-- <dxi-column
+    caption="Actions"
+    type="buttons"
+    [width]="110">
+    <dxi-button name="edit" [onClick]="editProduct"></dxi-button>
+    <dxi-button name="delete" [onClick]="deleteProduct"></dxi-button>
+  </dxi-column> -->
+
+</dx-data-grid>
+

@@ -1,0 +1,58 @@
+<h2 class="content-block">{{title}}</h2>
+
+<div class="content-block dx-card responsive-paddings">
+  <div class="form-avatar">
+    <img src="{{Picture}}"/>
+  </div>
+  <h2>{{productName}}</h2>
+  <span>{{stock}}</span>
+</div>
+
+<div class="content-block dx-card responsive-paddings">
+  <form (submit)="onFormSubmit(product)">
+    <dx-form id="form"
+      [formData]="product"
+      labelLocation="top"
+      [colCountByScreen]="colCountByScreen"
+    >
+
+      <dxi-item dataField="productName">
+        <dxi-validation-rule
+            type="required"
+            message="Product Name is required">
+        </dxi-validation-rule>
+        <!-- <dxi-validation-rule
+            type="pattern"
+            pattern="^[a-zA-Z]+$"
+            message="The name should not contain digits">
+        </dxi-validation-rule> -->
+      </dxi-item>
+      <dxi-item dataField="price" editorType="dxNumberBox">
+        <dxi-validation-rule
+            type="required"
+            message="Price is required">
+        </dxi-validation-rule>
+      </dxi-item>
+      <dxi-item dataField="stock">
+        <dxi-validation-rule
+            type="required"
+            message="Stock is required">
+        </dxi-validation-rule>
+      </dxi-item>
+      <dxi-item itemType="empty">
+      </dxi-item>
+      <dxi-item itemType="group" [colCountByScreen]="colCountByScreenTwo">
+        <dxi-item
+          itemType="button"
+          horizontalAlignment="right"
+          [buttonOptions]="buttonOptions">
+        </dxi-item>
+        <dxi-item
+          itemType="button"
+          horizontalAlignment="left"
+          [buttonOptions]="buttonOptionsTwo">
+        </dxi-item>
+      </dxi-item>
+    </dx-form>
+  </form>
+</div>

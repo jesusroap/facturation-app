@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = Facturation.App.Dominio
-build_property.ProjectDir = /Users/mauricioroa/Desktop/facturation-app/backend/Facturation.App/Facturation.App.Dominio/
+build_property.ProjectDir = /Users/mauricioroa/Desktop/desarrollo/facturation-app/backend/Facturation.App/Facturation.App.Dominio/

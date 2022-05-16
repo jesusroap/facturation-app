@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import DataSource from 'devextreme/data/data_source';
-import { CustomerService } from 'src/app/services/customer.service';
+import { DataService } from 'src/app/services/data.service';
 
 @Component({
   selector: 'app-customers',
@@ -12,9 +12,9 @@ export class CustomersComponent implements OnInit {
   ds!: DataSource;
 
   constructor(
-    private customerService: CustomerService,
+    private service: DataService,
   ) {
-    this.customerService.getAllCustomers().subscribe((data) => {
+    this.service.getAllCustomers().subscribe((data) => {
       console.log(data)
       this.ds = new DataSource({
         store: data

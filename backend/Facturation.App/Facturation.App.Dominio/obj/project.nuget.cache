@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0g+JST1OPlE/VC2WoxTT1Xe5O2Odw34JM7xM6veVQzGc+rEm1izHKe7JACgB1WMPDyMAiG0YQSN4eUV7rTfqWA==",
+  "dgSpecHash": "0IAr0Ung6eLk9u/jxCIWJMqFidv2qsQY/5/JBOIJtjOZwBSIUmbCQmIBK4kpyElRn3peB3hszlLSIFQuz1DW9g==",
   "success": true,
-  "projectFilePath": "/Users/mauricioroa/Desktop/facturation-app/backend/Facturation.App/Facturation.App.Dominio/Facturation.App.Dominio.csproj",
+  "projectFilePath": "/Users/mauricioroa/Desktop/desarrollo/facturation-app/backend/Facturation.App/Facturation.App.Dominio/Facturation.App.Dominio.csproj",
   "expectedPackageFiles": [
     "/Users/mauricioroa/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/mauricioroa/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",

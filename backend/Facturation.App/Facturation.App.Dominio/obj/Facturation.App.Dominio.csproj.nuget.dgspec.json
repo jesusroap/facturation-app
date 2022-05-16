@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mauricioroa/Desktop/facturation-app/backend/Facturation.App/Facturation.App.Dominio/Facturation.App.Dominio.csproj": {}
+    "/Users/mauricioroa/Desktop/desarrollo/facturation-app/backend/Facturation.App/Facturation.App.Dominio/Facturation.App.Dominio.csproj": {}
   },
   "projects": {
-    "/Users/mauricioroa/Desktop/facturation-app/backend/Facturation.App/Facturation.App.Dominio/Facturation.App.Dominio.csproj": {
+    "/Users/mauricioroa/Desktop/desarrollo/facturation-app/backend/Facturation.App/Facturation.App.Dominio/Facturation.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mauricioroa/Desktop/facturation-app/backend/Facturation.App/Facturation.App.Dominio/Facturation.App.Dominio.csproj",
+        "projectUniqueName": "/Users/mauricioroa/Desktop/desarrollo/facturation-app/backend/Facturation.App/Facturation.App.Dominio/Facturation.App.Dominio.csproj",
         "projectName": "Facturation.App.Dominio",
-        "projectPath": "/Users/mauricioroa/Desktop/facturation-app/backend/Facturation.App/Facturation.App.Dominio/Facturation.App.Dominio.csproj",
+        "projectPath": "/Users/mauricioroa/Desktop/desarrollo/facturation-app/backend/Facturation.App/Facturation.App.Dominio/Facturation.App.Dominio.csproj",
         "packagesPath": "/Users/mauricioroa/.nuget/packages/",
-        "outputPath": "/Users/mauricioroa/Desktop/facturation-app/backend/Facturation.App/Facturation.App.Dominio/obj/",
+        "outputPath": "/Users/mauricioroa/Desktop/desarrollo/facturation-app/backend/Facturation.App/Facturation.App.Dominio/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mauricioroa/.nuget/NuGet/NuGet.Config"

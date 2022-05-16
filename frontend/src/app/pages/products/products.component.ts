@@ -7,7 +7,6 @@ import { Product } from 'src/app/models/product';
 import { DataService } from 'src/app/services/data.service';
 import notify from 'devextreme/ui/notify';
 import { Location } from '@angular/common';
-import { DetailService } from 'src/app/services/detail.service';
 // import { MatDialog } from '@angular/material/dialog';
 
 @Component({
@@ -21,7 +20,6 @@ export class ProductsComponent implements OnInit {
 
   constructor(
     private service: DataService,
-    private detailService: DetailService,
     private router: Router,
     private _location: Location,
   ) {

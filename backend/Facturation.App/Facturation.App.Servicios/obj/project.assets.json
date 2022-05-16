@@ -5635,11 +5635,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mauricioroa/Desktop/facturation-app/backend/Facturation.App/Facturation.App.Servicios/Facturation.App.Servicios.csproj",
+      "projectUniqueName": "/Users/mauricioroa/Desktop/desarrollo/facturation-app/backend/Facturation.App/Facturation.App.Servicios/Facturation.App.Servicios.csproj",
       "projectName": "Facturation.App.Servicios",
-      "projectPath": "/Users/mauricioroa/Desktop/facturation-app/backend/Facturation.App/Facturation.App.Servicios/Facturation.App.Servicios.csproj",
+      "projectPath": "/Users/mauricioroa/Desktop/desarrollo/facturation-app/backend/Facturation.App/Facturation.App.Servicios/Facturation.App.Servicios.csproj",
       "packagesPath": "/Users/mauricioroa/.nuget/packages/",
-      "outputPath": "/Users/mauricioroa/Desktop/facturation-app/backend/Facturation.App/Facturation.App.Servicios/obj/",
+      "outputPath": "/Users/mauricioroa/Desktop/desarrollo/facturation-app/backend/Facturation.App/Facturation.App.Servicios/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mauricioroa/.nuget/NuGet/NuGet.Config"
@@ -5654,11 +5654,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/mauricioroa/Desktop/facturation-app/backend/Facturation.App/Facturation.App.Dominio/Facturation.App.Dominio.csproj": {
-              "projectPath": "/Users/mauricioroa/Desktop/facturation-app/backend/Facturation.App/Facturation.App.Dominio/Facturation.App.Dominio.csproj"
+            "/Users/mauricioroa/Desktop/desarrollo/facturation-app/backend/Facturation.App/Facturation.App.Dominio/Facturation.App.Dominio.csproj": {
+              "projectPath": "/Users/mauricioroa/Desktop/desarrollo/facturation-app/backend/Facturation.App/Facturation.App.Dominio/Facturation.App.Dominio.csproj"
             },
-            "/Users/mauricioroa/Desktop/facturation-app/backend/Facturation.App/Facturation.App.Persistencia/Facturation.App.Persistencia.csproj": {
-              "projectPath": "/Users/mauricioroa/Desktop/facturation-app/backend/Facturation.App/Facturation.App.Persistencia/Facturation.App.Persistencia.csproj"
+            "/Users/mauricioroa/Desktop/desarrollo/facturation-app/backend/Facturation.App/Facturation.App.Persistencia/Facturation.App.Persistencia.csproj": {
+              "projectPath": "/Users/mauricioroa/Desktop/desarrollo/facturation-app/backend/Facturation.App/Facturation.App.Persistencia/Facturation.App.Persistencia.csproj"
             }
           }
         }

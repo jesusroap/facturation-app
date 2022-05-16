@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y0eL86ByW4m5KFqspYN9k5YFR/LPC0BwTzBWrmH2xD9W2KbsvI/cyX8d/CONcrn5yWPAc7MZReGOZ1WXGXo/GQ==",
+  "dgSpecHash": "0vrNagKCQoFpnOOnoLYUm5sYeVdOLmK+Ngpt1wzd2hciffB7J9xkAtnxCtivKhO6sT0F8kJzW+Nvlyt0XqDD2w==",
   "success": true,
-  "projectFilePath": "/Users/mauricioroa/Desktop/facturation-app/backend/Facturation.App/Facturation.App.Servicios/Facturation.App.Servicios.csproj",
+  "projectFilePath": "/Users/mauricioroa/Desktop/desarrollo/facturation-app/backend/Facturation.App/Facturation.App.Servicios/Facturation.App.Servicios.csproj",
   "expectedPackageFiles": [
     "/Users/mauricioroa/.nuget/packages/microsoft.aspnetcore.jsonpatch/5.0.0/microsoft.aspnetcore.jsonpatch.5.0.0.nupkg.sha512",
     "/Users/mauricioroa/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/5.0.0/microsoft.aspnetcore.mvc.newtonsoftjson.5.0.0.nupkg.sha512",

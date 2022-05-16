@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import DataSource from 'devextreme/data/data_source';
-import { DetailService } from 'src/app/services/detail.service';
 import { Location } from '@angular/common';
+import { DataService } from 'src/app/services/data.service';
 
 @Component({
   selector: 'app-sales',
@@ -14,11 +14,11 @@ export class SalesComponent implements OnInit {
   ds!: DataSource;
 
   constructor(
-    private detailService: DetailService,
+    private service: DataService,
     private router: Router,
     private _location: Location,
   ) {
-    this.detailService.getAllDetails().subscribe((data) => {
+    this.service.getAllDetails().subscribe((data) => {
 console.log(data)
       this.ds = new DataSource({
         store: data

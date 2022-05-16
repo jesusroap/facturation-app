@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Gq1zm6O1/f/PTmp6fAjb14eqogVoCWgPWGlzZkNdGpoLh85nARcKALzEE42JM8mnPwmLs+Cei2AmxAf3tatECw==",
+  "dgSpecHash": "gBMzboZphCeO2BIh0876s4yFY5vC6e0xUjYeqAOoYh9UU4YC4npfeK3UdAQ/Q9LEcXl85ectSMbGJcMBCrq9Tw==",
   "success": true,
-  "projectFilePath": "/Users/mauricioroa/Desktop/facturation-app/backend/Facturation.App/Facturation.App.Persistencia/Facturation.App.Persistencia.csproj",
+  "projectFilePath": "/Users/mauricioroa/Desktop/desarrollo/facturation-app/backend/Facturation.App/Facturation.App.Persistencia/Facturation.App.Persistencia.csproj",
   "expectedPackageFiles": [
     "/Users/mauricioroa/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/mauricioroa/.nuget/packages/microsoft.aspnetcore.jsonpatch/5.0.0/microsoft.aspnetcore.jsonpatch.5.0.0.nupkg.sha512",
